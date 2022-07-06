@@ -1,5 +1,5 @@
 export default function Signin(){
     return (
-        <h1>Signup</h1>
+        <h1>Signin</h1>
     )
 }
