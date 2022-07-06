@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Signin from './components/Signin';
-import Signup from './components/Signup';
+import Signin from './components/registration/Signin';
+import Signup from './components/registration/Signup';
 
 function App() {
   return (
