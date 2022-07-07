@@ -1,84 +1,187 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.welcome-menu {
+  display: flex;
+}
 
 body {
-  margin: 10;
   padding: 30px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.title {
+  font-weight: bold;
+  font-size: 36px
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 24px
+}
+
+
+
+input {
+  width: 100%;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 12.5px;
+  font: 10px !important;
+  padding: 10px !important;
+  margin: 10px 0 !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
 
 /* Welcome Page */
 
-.welcome-round-logo{
-  width: 74px;
-  height: 74px;
-  border: 1px solid black;
+.welcome-round-logo {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
   border-radius: 50%;
 }
 
-.welcome-row{
+.welcome {
+  height:90vh
+}
+
+.welcome-body {
+  height: 90vh;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
+  justify-content: space-between;
+  /* overflow: hidden; */
 }
 
-.welcome-image{
-  width: 776px;
-  height: 598px;
-  border: 1px solid black;
-  border-radius: 45px;
+#forgot {
+  justify-self: end;
+  flex-grow: 2;
+  text-align: right;
+}
+
+.left {
+  
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.welcome-image {
+  height: 60vh;
+  border: 2px solid black;
+  border-radius: 15px;
   margin-top: 30px;
+  margin-bottom: 10px;
+  background-image: url('https://i.pinimg.com/564x/4c/2b/81/4c2b811fd0c07a8c79921f246786c87d.jpg');
 }
 
-.welcome-auth-view{
-  width: 536px;
-  height: 792px;
-  border: 1px solid black;
-  border-radius: 48px;
+.socials {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.auth-view {
+  display: flex;
+  flex-direction: row;
+  /* flex-flow: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh !important;
+  padding: 20px;
+  flex: 1;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.welcome-auth-view {
+  
+  height: 80vh;
+  border: 2px solid black;
+  border-radius: 15px;
   margin-top: 30px;
   margin-left: 50px;
 }
 
-.welcome-auth-buttons{
+.welcome-auth-buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
 
-.welcome-auth-buttons > button{
+.tab {
+  width: 100%;
+  display: flex
+}
+
+
+.tab-bar {
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+
+.tab-bar:hover {
+  background-color:black;
+  color: white;
+}
+
+.tab-bar button {
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.welcome-auth-buttons>button {
   padding: 15px;
   font-size: 20px;
 }
 
-.register-btn{
-  font-weight: bold;
-}
-
-hr{
+hr {
   color: black;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
-.welcome-auth-inner-view{
-  padding: 20px;
+.welcome-auth-inner-view {
+  height: 75vh;
 }
 
 
 /* Register Page */
 
-.register-input{
+.register-input {
   width: 478px;
   height: 68px;
   border: 2px solid black;
@@ -88,24 +191,21 @@ hr{
   font-size: 18px;
 }
 
-.register-agreement{
-  margin: 11px 0px 11px;
+.register-agreement {
+  margin: 12px 0px 12px;
 }
 
-.register-button{
-  width: 478px;
-  height: 68px;
-  border: 2px solid black;
-  border-radius: 145px;
-  margin-top: 15px;
+.custom-btn {
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
   color: white;
-  background-color: black;
-  font-size: 18px;
+  background-color: black !important;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
 }
-
-
-
-
-
-
