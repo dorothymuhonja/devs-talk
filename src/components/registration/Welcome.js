@@ -21,7 +21,6 @@ export default function Welcome(){
             <div className="welcome-body">
                 <div className="left col-lg-7">
                 <div className="welcome-image">
-                    {/* <img src="https://i.pinimg.com/564x/4c/2b/81/4c2b811fd0c07a8c79921f246786c87d.jpg" alt=""></img>                     */}
                 </div>
                 <h1 className="title">Be Collaborative</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed molestie ipsum.</p>

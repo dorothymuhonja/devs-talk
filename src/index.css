@@ -161,9 +161,10 @@ input {
   border-bottom: 2px solid black;
 }
 
-.tab-bar:hover {
+.tab-bar:hover, .social-icon:hover {
   background-color:black;
   color: white;
+  cursor: pointer
 }
 
 .tab-bar button {
