@@ -29,8 +29,8 @@ export default function Welcome(){
                 <div className=" col-lg-5">
                 <div className="welcome-auth-view">
                     <div className="tab">
-                        <div className="tab-bar"><button className="text-center" onClick={changeAuthType}>Sign In</button></div>
-                        <div className="tab-bar center-block"><button onClick={changeAuthType}>Register</button></div>
+                        <div id="sign-in-corner" className="tab-bar"><button className="text-center" onClick={changeAuthType}>Sign In</button></div>
+                        <div id="register-corner" className="tab-bar center-block"><button onClick={changeAuthType}>Register</button></div>
                     </div>
                     {/* <div className="welcome-auth-buttons">
                         <button onClick={changeAuthType} className="btn" type="button">Sign In</button>

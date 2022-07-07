@@ -66,6 +66,14 @@ input {
   height:90vh
 }
 
+#sign-in-corner {
+  border-top-left-radius: 14px;
+}
+
+#register-corner {
+  border-top-right-radius: 14px;
+}
+
 .welcome-body {
   height: 90vh;
   flex-wrap: wrap;
