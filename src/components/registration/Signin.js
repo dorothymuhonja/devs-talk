@@ -1,5 +1,11 @@
 export default function Signin(){
     return (
-        <h1>Signin</h1>
+        <div>
+            <form>
+            <input className="register-input" type="email" name="email" placeholder="Email Address" />
+            <input className="register-input" type="password" name="password" placeholder="Password" />
+            <input type="submit" className="register-button" value="LOG IN" />
+            </form>
+        </div>
     )
 }
