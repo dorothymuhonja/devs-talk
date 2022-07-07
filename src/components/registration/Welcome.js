@@ -26,7 +26,8 @@ export default function Welcome(){
                 <h1 className="title">Be Collaborative</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed molestie ipsum.</p>
                 </div>
-                <div className="welcome-auth-view col-lg-4">
+                <div className=" col-lg-5">
+                <div className="welcome-auth-view">
                     <div className="tab">
                         <div className="tab-bar"><button className="text-center" onClick={changeAuthType}>Sign In</button></div>
                         <div className="tab-bar center-block"><button onClick={changeAuthType}>Register</button></div>
@@ -39,6 +40,7 @@ export default function Welcome(){
                     <div className="welcome-auth-inner-view">
                         {authType? <Signup /> : <Signin />}
                     </div>
+                </div>
                 </div>
             </div>
         </div>
