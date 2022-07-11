@@ -4,7 +4,7 @@ export default function Signup(){
             {/* <form> */}
             <input type="text" name="names" placeholder="Name" />
             <input type="text" name="username" placeholder="Username" />
-            <input type="date" name="bithday" placeholder="Birthday" />
+            <input type="date" onfocus="(this.placeholder)" name="bithday" placeholder="Birthday" />
             <input type="email" name="email" placeholder="Email Address" />
             <input type="password" name="password" placeholder="Password" />
             <input type="password" name="confirm-password" placeholder="Confirm Password" />
