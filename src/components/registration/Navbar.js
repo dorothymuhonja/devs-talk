@@ -32,7 +32,7 @@ export default function Navbar(){
               <li className="nav-item">
                 <a className="nav-link" href="#">My Posts</a>
               </li>
-            </ul> 
+            </ul>
           </div>  
           <div className="d-flex align-items-center"> 
             <a className="text-reset me-3" href="#">
