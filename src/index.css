@@ -302,8 +302,8 @@ input[type='date']:after {
 /* Main feed */
 
 .main-feed{
-  width: 724px;
-  height: 464px;
+  width: 824px;
+  height: 564px;
   border: 1px solid black;
   border-radius: 48px;
 }
