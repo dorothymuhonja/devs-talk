@@ -9,7 +9,7 @@
 }
 
 body {
-  padding: 30px;
+  /* padding: 30px; -> For all could we move the padding to the actual container being targeted? */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
