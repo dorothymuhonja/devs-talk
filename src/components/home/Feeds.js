@@ -1,10 +1,12 @@
 import LeftNav from "./LeftNav";
 import RightNav from "./RightNav";
 import Post from "./Post";
+import Navbar from "../registration/Navbar";
 
 export default function Feeds(){
     return (
         <>
+        <Navbar />
             <div className="container-fluid">
                 <div className="row d-flex justify-content-md-between">
                     <div className="col-md-1">
