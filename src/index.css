@@ -29,12 +29,35 @@ code {
   font-size: 24px
 }
 
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
 
+.post-profile-image {
+  width: 60px;
+  height: 60px;
+}
+
+.profile-image-small {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.post-profile-image,
+.profile-image-small,
+.comment-box {
+  border: 1px solid black;
+  border-radius: 30px
+}
 
 input {
   width: 100%;
   height: 60px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 12.5px;
   font: 10px !important;
   padding: 10px !important;
@@ -43,8 +66,6 @@ input {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
 
 
 /* Welcome Page */
@@ -57,7 +78,7 @@ input {
 }
 
 .welcome {
-  height:90vh
+  height: 90vh
 }
 
 #sign-in-corner {
@@ -85,7 +106,6 @@ input {
 }
 
 .left {
-  
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -129,7 +149,6 @@ input {
 }
 
 .welcome-auth-view {
-  
   height: 80vh;
   border: 2px solid black;
   border-radius: 15px;
@@ -149,14 +168,14 @@ input {
   display: flex
 }
 
-
 .tab-bar {
   width: 50%;
   border-bottom: 2px solid black;
 }
 
-.tab-bar:hover, .social-icon:hover {
-  background-color:black;
+.tab-bar:hover,
+.social-icon:hover {
+  background-color: black;
   color: white;
   cursor: pointer
 }
@@ -217,7 +236,9 @@ input[type='date']:after {
   content: attr(placeholder)
 }
 
+
 /* Left Navbar */
+
 
 /* .main-left-container{
   width: 81px;
@@ -226,20 +247,15 @@ input[type='date']:after {
   border-radius: 48px;
 } */
 
-.menu {
-  position: fixed;
-  top: 141px;
-  left: 31px;
-  width: 79px;
-  height: 400px;
-  background: #eeeeee;
+#menu {
   font-size: 16px;
+  height: 60vh;
   font-family: sans-ferif;
   border: 1px solid black;
   border-radius: 48px;
 }
 
-.menu__item {
+.menu-item {
   position: relative;
   display: flex;
   justify-content: center;
@@ -250,11 +266,11 @@ input[type='date']:after {
   transition: background 0.3s;
 }
 
-.menu__item > i {
-  font-size: 2.2em;
+.menu-item>i {
+  font-size: 18px;
 }
 
-.menu__item--active {
+.menu-item-active {
   color: #000000;
   background: #dddddd;
   border-radius: 48px;
@@ -271,22 +287,16 @@ input[type='date']:after {
   display: inline-block;
   top: 50%;
   transform: translateY(-50%);
-  
   left: 100%;
   content: attr(data-tooltip);
-  
   margin-left: 15px;
-  
   white-space: nowrap;
-  
   padding: 7px 12px;
-  
   font-size: 0.9em;
   font-weight: bold;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 15px;
   color: #fff;
-  
   opacity: 0;
   visibility: hidden;
   transition: opacity 1s;
@@ -300,21 +310,9 @@ input[type='date']:after {
 
 /* Right Navbar */
 
-.main-right-container{
+.main-right-container {
   width: 305px;
   height: 530px;
   border: 1px solid black;
-  border-radius: 48px;
+  border-radius: 15px;
 }
-
-
-/* Main feed */
-
-.main-feed{
-  width: 824px;
-  height: 564px;
-  border: 1px solid black;
-  border-radius: 48px;
-}
-
-
