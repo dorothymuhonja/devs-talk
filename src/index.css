@@ -8,6 +8,17 @@
   display: flex;
 }
 
+#story-bar {
+  margin-bottom: 20px;
+}
+
+.story-style {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
 body {
   /* padding: 30px; -> For all could we move the padding to the actual container being targeted? */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -307,6 +318,11 @@ input[type='date']:after {
   visibility: visible;
 }
 
+.post-like {
+  color: maroon;
+  width: 40px;
+  height: 40px;
+}
 
 /* Right Navbar */
 
