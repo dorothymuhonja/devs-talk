@@ -18,20 +18,20 @@ export default function Post() {
           hendrerit viverra.
         </p>
       </div>
-      <div className="post-like-count">
+      <div className="post-like-count d-flex">
         <div className="post-like"></div>
         <div className="post-like-identity">
           <p>You, User Two and 38 others like this</p>
         </div>
-        <div className="d-flex justify-content-around w-50">
-          <p>Like</p>
-          <p>Comment</p>
-          <p>Share</p>
-        </div>
-        <div className="comment-section d-flex justify-content-between align-items-center">
-          <div className="profile-image-small"></div>
-          <input placeholder="Enter a comment"></input>
-        </div>
+      </div>
+      <div className="d-flex justify-content-around w-50">
+        <p>Like</p>
+        <p>Comment</p>
+        <p>Share</p>
+      </div>
+      <div className="comment-section d-flex justify-content-between align-items-center">
+        <div className="profile-image-small"></div>
+        <input placeholder="Enter a comment"></input>
       </div>
     </div>
   );

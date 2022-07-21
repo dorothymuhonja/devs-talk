@@ -8,6 +8,20 @@ export default function Feeds(){
         <>
         <Navbar />
             <div className="container-fluid">
+                <div id="story-bar" className="d-flex justify-content-between">
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                    <div className="story-style"></div>
+                </div>
                 <div className="row d-flex justify-content-md-between">
                     <div className="col-md-1">
                         <LeftNav />

@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Feeds from './components/home/Feeds';
 import Welcome from './components/registration/Welcome'
@@ -13,7 +13,6 @@ function App() {
         <Route exact path="/settings" element={<Settings />} />
       </Routes>
     </>
-    
   );
 }
 
