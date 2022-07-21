@@ -11,7 +11,7 @@ export default function Welcome(){
     }
     return (
         <>
-        <div className="container-fluid welcome">
+        <div className="container-fluid mt-1 welcome">
             <div className="welcome-menu">
                 <div className="col-lg-1"><div className="welcome-round-logo"></div>
                 
