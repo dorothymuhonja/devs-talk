@@ -13,7 +13,7 @@ export default function Welcome(){
         <>
         <div className="welcome">
             <div className="welcome-menu">
-                <div className=" col-lg-1"><div className="welcome-round-logo"></div>
+                <div className="col-lg-1"><div className="welcome-round-logo"></div>
                 
                 </div>
                 <h1 className="subtitle">DEV TALKS</h1>
@@ -22,7 +22,7 @@ export default function Welcome(){
                 <div className="left col-lg-7">
                 <div className="welcome-image">
                 </div>
-                <h1 className="title">Be Collaborative</h1>
+                <h1 className="title text-blue-500">Be Collaborative</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed molestie ipsum.</p>
                 </div>
                 <div className=" col-lg-5">
