@@ -21,7 +21,6 @@ export default function Welcome(){
             <div className="welcome-body">
                 <div className="left col-lg-7">
                 <div className="welcome-image">
-                    {/* <img src="https://i.pinimg.com/564x/4c/2b/81/4c2b811fd0c07a8c79921f246786c87d.jpg" alt=""></img>                     */}
                 </div>
                 <h1 className="title text-blue-500">Be Collaborative</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed molestie ipsum.</p>
@@ -29,8 +28,8 @@ export default function Welcome(){
                 <div className=" col-lg-5">
                 <div className="welcome-auth-view">
                     <div className="tab">
-                        <div className="tab-bar"><button className="text-center" onClick={changeAuthType}>Sign In</button></div>
-                        <div className="tab-bar center-block"><button onClick={changeAuthType}>Register</button></div>
+                        <div id="sign-in-corner" className="tab-bar"><button className="text-center" onClick={changeAuthType}>Sign In</button></div>
+                        <div id="register-corner" className="tab-bar center-block"><button onClick={changeAuthType}>Register</button></div>
                     </div>
                     {/* <div className="welcome-auth-buttons">
                         <button onClick={changeAuthType} className="btn" type="button">Sign In</button>
