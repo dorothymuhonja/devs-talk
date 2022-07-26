@@ -28,7 +28,7 @@ export default function Profile() {
                 <div className="col-xs-12 col-sm-4 def-post">
                     <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGxhbmRzY2FwZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" 
                     alt="avatar" className="img-fluid rounded-circle default" />
-                    <div className="post mt-5 p-3">
+                    <div className="post mt-3 p-3">
                         <p className="post-name"> Introduction</p>
                         <p className="post-desc">
                             <small>An enthusiast always coding. In love with programming and nurturing next generation of techies.</small>
