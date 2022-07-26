@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Signin from "./Signin";
-import Signup from "./Signup";
+import Signin from "../registration/Signin";
+import Signup from "../registration/Signup";
 
 export default function Welcome() {
   const [authType, setAuthType] = useState(false);
@@ -10,7 +10,7 @@ export default function Welcome() {
   }
   return (
     <>
-      <div className="welcome">
+      <div className="welcome container-fluid mt-1">
         <div className="welcome-menu">
           <div className="col-lg-1">
             <div className="welcome-round-logo"></div>
