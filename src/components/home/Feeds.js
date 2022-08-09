@@ -1,12 +1,12 @@
-import LeftNav from "./LeftNav";
-import RightNav from "./RightNav";
+import LeftNav from "../navigation/LeftNav";
+import RightNav from "../navigation/RightNav";
 import Post from "./Post";
-import Navbar from "../registration/Navbar";
+// import Navbar from "../registration/Navbar";
 
 export default function Feeds(){
     return (
         <>
-        <Navbar />
+        
             <div className="container-fluid">
                 <div id="story-bar" className="d-flex justify-content-between">
                     <div className="story-style"></div>

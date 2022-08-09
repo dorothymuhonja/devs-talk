@@ -418,6 +418,389 @@ input[type='date']:after {
   }
 
 
+  /* Main Settings Page */
+
+.main-setting{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-setting .active-setting-btn{
+  background-color: #087F8C;
+  color: #FFFFFF;
+}
+
+.btn-settings{
+  width: 252px;
+  height: 41px;
+  border: 1px solid #031926;
+  color: #031926;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+/* General Settings Page */
+
+.general-settings-heading{
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.general-heading{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.general-info{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  left: 358px;
+  line-height: 27px;
+}
+
+.general-info-edit{
+  font-weight: 700;
+  font-size: 20px;
+  color: #087F8C;
+  position: absolute;
+  right: 70px;
+  line-height: 27px;
+}
+
+.general-info-edit > a{
+  color: #087F8C;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
