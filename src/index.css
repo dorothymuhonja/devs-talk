@@ -427,7 +427,7 @@ input[type='date']:after {
   align-items: center;
 }
 
-.main-setting .active-setting-btn{
+.main-setting .active{
   background-color: #087F8C;
   color: #FFFFFF;
 }
@@ -444,7 +444,7 @@ input[type='date']:after {
 
 /* General Settings Page */
 
-.general-settings-heading{
+.main-settings-heading{
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -452,13 +452,13 @@ input[type='date']:after {
 
 .general-heading{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
 }
 
 .general-info{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
   position: absolute;
   left: 358px;
@@ -467,7 +467,7 @@ input[type='date']:after {
 
 .general-info-edit{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   color: #087F8C;
   position: absolute;
   right: 70px;
