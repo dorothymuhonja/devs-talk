@@ -1,13 +1,7 @@
 // import { useState } from "react"
-import { NavLink, useNavigate } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Settings(){
-
-    const navigate = useNavigate();
-
-    const handleClick = () => {
-        navigate("/settings/general");
-    }
 
     return(
         <>

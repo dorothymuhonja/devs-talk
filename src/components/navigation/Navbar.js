@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/devs-no-bg.png"
 
 export default function Navbar(){
     return ( 
-      <nav className="py-2 px-4 mb-4 navbar navbar-expand-lg navbar-light bg-light"> 
+      <nav className="py-3 px-4 mb-4 navbar main-navbar navbar-expand-lg"> 
         <div className="container-fluid"> 
           <button
             className="navbar-toggler"
@@ -17,85 +18,67 @@ export default function Navbar(){
           </button>
  
           <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <a className="navbar-brand mt-2 mt-lg-0" href="#to">
-            <svg style={{height:"20px"}} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-</svg>
-            </a> 
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="#to">Feed</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#to">Groups</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#to">My Posts</a>
-              </li>
-            </ul>
-          </div>  
+            <NavLink className="navbar-brand mt-2 mt-lg-0" to="/">
+              <img src={logo} className="rounded-circle" width={40} height={40} alt="Devs-Talk-Logo" />
+            </NavLink> 
+
+            <form>
+              <div className="main-nav-search mx-3">
+                <input type="search" classname="nav-search" placeholder="Search Devs Talk" />
+              </div>
+            </form>
+          </div> 
+           
           <div className="d-flex align-items-center"> 
+            <NavLink className="text-reset me-3" to="/settings">
+              <i class="fas fa-cog main-nav-icon"></i>
+            </NavLink> 
+
             <a className="text-reset me-3" href="#to">
-              <i className="fas fa-shopping-cart"></i>
+            <i class="far fa-comment main-nav-icon"></i>
             </a> 
-            <div className="dropdown">
+
+            <div class="dropdown">
               <a
-                className="text-reset me-3 dropdown-toggle hidden-arrow"
+                class="text-reset me-3"
                 href="#to"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-mdb-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i className="fas fa-bell"></i>
-                <span className="badge rounded-pill badge-notification bg-danger">1</span>
+                <i class="fas fa-bell main-nav-icon"></i>
+                <span class="badge rounded-pill badge-notification bg-info">1</span>
               </a>
               <ul
-                className="dropdown-menu dropdown-menu-end"
+                class="dropdown-menu dropdown-menu-end"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a className="dropdown-item" href="#to">Some news</a>
+                  <a class="dropdown-item" href="#tu">Some news</a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#to">Another news</a>
+                  <a class="dropdown-item" href="#tu">Another news</a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#to">Something else here</a>
+                  <a class="dropdown-item" href="#tu">Something else here</a>
                 </li>
               </ul>
-            </div> 
-            <div className="dropdown">
-              <a
-                className="dropdown-toggle d-flex align-items-center hidden-arrow"
-                href="#to"
-                id="navbarDropdownMenuAvatar"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
+            </div>
+            
+            <div className="main-nav-profile-pic">
+              <NavLink
+                to="/profile"
               >
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                   className="rounded-circle"
-                  height="25"
-                  alt="Black and White Portrait of a Man"
+                  height={30} 
+                  width={30}
+                  alt="username avatar"
                   loading="lazy"
                 />
-              </a>
-              <ul
-                className="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdownMenuAvatar"
-              >
-                <li>
-                  <a className="dropdown-item" href="#to">My profile</a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#to">Settings</a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#to">Logout</a>
-                </li>
-              </ul>
+              </NavLink>
             </div>
           </div> 
         </div> 

@@ -4,7 +4,7 @@ import Feeds from './components/home/Feeds';
 import Welcome from './components/welcome/Welcome'
 import Settings from './components/settings/Settings';
 import Profile from "./components/profile/Profile";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 // import WelcomeLogo from "./components/welcome/WelcomeLogo";
 import General from "./components/settings/General";
 import Navbar from "./components/navigation/Navbar";
@@ -14,17 +14,17 @@ import Security from "./components/settings/Security";
 
 function App() {
 
-  const [loading, setLoading] = useState(true)
+  // const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(true)
-    }, 3000);
-    return () => {
-      clearTimeout(timer);
-      setLoading(false)
-    }
-  }, [])
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(true)
+  //   }, 3000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //     setLoading(false)
+  //   }
+  // }, [])
 
   return (
     <>
