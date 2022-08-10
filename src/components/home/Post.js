@@ -8,23 +8,21 @@ export default function Post() {
 
   return (
     <div className="post p-4">
-      <div className="post-title d-flex w-25 justify-content-between">
-        <div className="post-profile-image"><img
-                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                  className="rounded-circle"
-                  height={70} 
-                  width={70}
-                  alt="username avatar"
-                  loading="lazy"
-                />
+      <div className="post-title d-flex flex-row align-items-center">
+        <div className="post-profile-image">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+          className="rounded-circle"
+          height={70} 
+          width={70}
+          alt="username avatar"
+          loading="lazy"
+        />
         </div>
-        <div className="post-details">
-          <p className="user-name"><span className="user-1"> User 1 </span>
-          <br/>
-         <span className="date text-muted" > 10 August</span>
-    
-          </p>
-          
+        
+        <div className="post-details mx-3">
+          <span className="post-username">User One</span>
+         <span className="post-date text-muted">10 August</span>
         </div>
       </div>
       <div className="post-body mt-3">

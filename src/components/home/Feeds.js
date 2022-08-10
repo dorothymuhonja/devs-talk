@@ -1,5 +1,6 @@
 import LeftNav from "../navigation/LeftNav";
 import RightNav from "../navigation/RightNav";
+import NewPost from "../post/NewPost";
 import Post from "./Post";
 import Stories from "./Stories";
 // import Navbar from "../registration/Navbar";
@@ -17,6 +18,7 @@ export default function Feeds(){
 
                     <div className="col-md-6">
                         <Stories />
+                        <NewPost />
                         <div className="main-feed">
                             <Post/>
                         </div>                            

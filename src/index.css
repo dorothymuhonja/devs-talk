@@ -26,7 +26,7 @@ body {
   font-size: 24px
 }
 
-/* Feed page */
+/* Post page */
 
 .post {
   padding: 20px;
@@ -37,14 +37,10 @@ body {
   border: 1px solid black;
 }
 
-.user-name{
-  margin-top: 4% ;
-  color: #087F8C;
-
-}
-
-.user-1{
-  font-weight: 600 ;
+.post-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .code-image{
@@ -54,7 +50,11 @@ body {
  margin-top: 22px;
 }
 
-.date{
+.post-username{
+  font-weight: 700;
+}
+
+.post-date{
   color: black ;
 }
 
@@ -453,7 +453,7 @@ input[type='date']:after {
 
 .left-nav-icon-text{
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   align-items: center;
   color: #087F8C;
@@ -740,6 +740,41 @@ input[type='date']:after {
 }
 
 
+/* NewPost Page */
+
+.newpost-profile-image-small{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newpost-profile-image-small > img{
+  width: 45px;
+  height: 45px;
+}
+
+.newpost input{
+  width: 530px ;
+  height: 54px;
+  border: 2px solid #087F8C;
+  border-radius: 15px;
+  
+}
+
+.newpost input:focus{
+  outline: none;
+  border: 2px solid #087F8C;
+  padding-left: 10px;
+  color: #087F8C;
+}
+
+.newpost input::placeholder { /* Most modern browsers support this now. */
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #087F8C;
+}
 
 
 
