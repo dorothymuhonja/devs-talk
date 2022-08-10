@@ -1,5 +1,5 @@
 import picture from "../../assets/images/coding.jpg"
-
+import heartIcon from "../../assets/icons/heart-icon.svg"
 
 export default function Post() {
 
@@ -31,7 +31,7 @@ export default function Post() {
       <div className="post-like-count d-flex">
         <div className="post-like"></div>
         <div className="post-like-identity">
-          <p>You, User Two and 38 others like this</p>
+          <p><a href="#nfnhhn"><img src={heartIcon} alt="heart icon" className="heartIcon"/></a> You, User Two and 38 others like this</p>
         </div>
       </div>
       <div className="d-flex justify-content-around w-50">
