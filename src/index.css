@@ -37,6 +37,27 @@ body {
   border: 1px solid black;
 }
 
+.user-name{
+  margin-top: 4% ;
+  color: #087F8C;
+
+}
+
+.user-1{
+  font-weight: 600 ;
+}
+
+.code-image{
+ width: 100% ;
+ height: 260px ;
+ border-radius: 15px ;
+ margin-top: 22px;
+}
+
+.date{
+  color: black ;
+}
+
 .post-profile-image {
   width: 60px;
   height: 60px;

@@ -1,11 +1,19 @@
+import picture from "../../assets/images/coding.jpg"
+
+
 export default function Post() {
+
   return (
     <div className="post p-4">
       <div className="post-title d-flex w-25 justify-content-between">
         <div className="post-profile-image"></div>
         <div className="post-details">
-          <p>User 1</p>
-          <p>10:00 AM</p>
+          <p className="user-name"><span className="user-1"> User 1 </span>
+          <br/>
+         <span className="date text-muted" > 10 August</span>
+    
+          </p>
+          
         </div>
       </div>
       <div className="post-body">
@@ -17,7 +25,7 @@ export default function Post() {
           id, molestie condimentum leo. Integer ultricies magna eget ex
           hendrerit viverra.
 
-          <img src=""></img>
+         <img src={picture} alt="code snippet" className="code-image"/>
         </p>
       </div>
       <div className="post-like-count d-flex">
