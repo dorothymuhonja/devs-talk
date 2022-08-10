@@ -1,35 +1,21 @@
 import LeftNav from "../navigation/LeftNav";
 import RightNav from "../navigation/RightNav";
 import Post from "./Post";
+import Stories from "./Stories";
 // import Navbar from "../registration/Navbar";
 
 export default function Feeds(){
     return (
         <>
         
-            <div className="container-fluid">
-                <div id="story-bar" className="d-flex justify-content-between">
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                    <div className="story-style"></div>
-                </div>
-                <div className="row d-flex justify-content-md-between">
-                    <div className="col-md-1">
+            <div className="container-fluid">                
+                <div className="row d-flex justify-content-md-between g-0">
+                    <div className="col-md-3">
                         <LeftNav />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-6">
+                    <Stories />
                         <div className="main-feed">
-                            <Post/>
-                            <Post/>
                             <Post/>
                             </div>                            
                     </div>
