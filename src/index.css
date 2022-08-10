@@ -91,7 +91,7 @@ body {
 }
 
 .user-main-story-body{
-  width: 100px;
+  width: 90px;
   height: auto;
   background-color: #087F8C;
   border: 2px solid #087F8C;
@@ -372,79 +372,16 @@ input[type='date']:after {
 
 /* Left Navbar */
 
-
-/* .main-left-container{
-  width: 81px;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 48px;
-} */
-
-#menu {
-  font-size: 16px;
-  height: 60vh;
-  font-family: 'inter', sans-serif;
-  border: 1px solid black;
-  border-radius: 48px;
-}
-
-.menu-item {
-  position: relative;
+.left-nav{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 13px 0;
-  text-decoration: none;
-  color: #666666;
-  transition: background 0.3s;
-}
-
-.menu-item>i {
-  font-size: 18px;
-}
-
-.menu-item-active {
-  color: #000000;
-  background: #dddddd;
-  border-radius: 48px;
-  border: 1px solid black;
-}
-
-.menu__item:hover {
-  background: #dddddd;
-  border-radius: 48px;
-}
-
-.menu__item::after {
-  position: absolute;
-  display: inline-block;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 100%;
-  content: attr(data-tooltip);
-  margin-left: 15px;
-  white-space: nowrap;
-  padding: 7px 12px;
-  font-size: 0.9em;
-  font-weight: bold;
-  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #031926;
   border-radius: 15px;
-  color: #fff;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s;
+  width: 275px;
+  height: 552px;
 }
 
-.menu__item:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.post-like {
-  color: maroon;
-  width: 40px;
-  height: 40px;
-}
 
 /* Right Navbar */
 
