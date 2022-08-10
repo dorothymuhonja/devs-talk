@@ -149,10 +149,15 @@ body {
   font-weight: 700;
   text-decoration: none !important;
   border-bottom: none !important;
+  -moz-white-space: pre-wrap;
+  -o-white-space: pre-wrap;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .user-main-story-body{
-  width: 90px;
+  width: 85px;
   height: auto;
   background-color: #087F8C;
   border: 2px solid #087F8C;
