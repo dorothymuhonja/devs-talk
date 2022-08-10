@@ -3,7 +3,7 @@ import logo from "../../assets/images/devs-no-bg.png"
 
 export default function Navbar(){
     return ( 
-      <nav className="py-3 px-4 mb-4 navbar main-navbar navbar-expand-lg"> 
+      <nav className="py-3 px-4 mb-4 navbar sticky-top main-navbar navbar-expand-lg"> 
         <div className="container-fluid"> 
           <button
             className="navbar-toggler"

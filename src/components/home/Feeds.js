@@ -10,18 +10,22 @@ export default function Feeds(){
         
             <div className="container-fluid">                
                 <div className="row d-flex justify-content-md-between g-0">
+                
                     <div className="col-md-3">
                         <LeftNav />
                     </div>
+
                     <div className="col-md-6">
-                    <Stories />
+                        <Stories />
                         <div className="main-feed">
                             <Post/>
-                            </div>                            
+                        </div>                            
                     </div>
+
                     <div className="col-md-3">
                         <RightNav />
                     </div>
+
                 </div>
             </div>
         </>
