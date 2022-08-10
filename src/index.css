@@ -396,7 +396,7 @@ input[type='date']:after {
 .left-nav{
   display: flex;
   flex-direction: column;
-  border: 2px solid #031926;
+  border: 1px solid #031926;
   border-radius: 15px;
   width: 265px;
   height: auto;
@@ -428,6 +428,7 @@ input[type='date']:after {
   color: #07282c;
 }
 
+
 /* Right Navbar */
 
 .main-right-container {
@@ -436,6 +437,140 @@ input[type='date']:after {
   border: 1px solid black;
   border-radius: 15px;
 }
+
+
+/* Connect Page */
+
+.main-connect{
+  width: 280px;
+  height: auto;
+  border: 1px solid #031926;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.connect-header{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #087F8C;
+}
+
+.connect-request{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.request-image{
+  width: 59px;
+  height: 59px;
+}
+
+.request-info{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.request-username{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #087F8C;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.request-mutuals{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+  margin-left: 11px;
+}
+
+.request-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.request-btn button{
+  width: 100%;
+  height: 36px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.btn-accept{
+  background-color: #087F8C;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+.btn-delete{
+  color: #031926;
+  border: 2px solid #031926;
+  font-size: 13px;
+}
+
+
+/* Online Page */
+
+.main-online{
+  width: 280px;
+  height: auto;
+  border: 1px solid #031926;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.online-header{
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 18px;
+  color: #087F8C;
+}
+
+.connect-friends{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.online-friends-image{
+  width: 27px;
+  height: 27px;
+}
+
+.online-users{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: 12px;
+}
+
+.dot{
+  position: absolute;
+  right: 240px;
+  margin-bottom: -25px;
+  z-index: 1;
+}
+
+.logged-in {
+  color: lime;
+}
+
+.logged-out {
+  color: grey;
+}
+
 
 /* Profile Page */
 
