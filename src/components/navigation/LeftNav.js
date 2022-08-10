@@ -1,7 +1,7 @@
 export default function LeftNav() {
     return (
         <>
-          <div>
+          <div className="left-nav p-3">
             
           </div>
         </>

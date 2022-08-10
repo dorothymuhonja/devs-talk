@@ -28,7 +28,7 @@ export default function Stories(){
                     <center>
                         <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="username-story" 
                         className="img-fluid rounded-circle my-3 story-avatar" />
-                        <p className="story-username mt-1">UserTwo Auser</p>
+                        <p className="story-username mt-1">User Three</p>
                     </center>                    
                 </div>
             </a>
@@ -38,7 +38,7 @@ export default function Stories(){
                     <center>
                         <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="username-story" 
                         className="img-fluid rounded-circle my-3 story-avatar" />
-                        <p className="story-username mt-1">UserTwo Auser</p>
+                        <p className="story-username mt-1">Someone</p>
                     </center>                    
                 </div>
             </a>
@@ -48,7 +48,7 @@ export default function Stories(){
                     <center>
                         <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="username-story" 
                         className="img-fluid rounded-circle my-3 story-avatar" />
-                        <p className="story-username mt-1">UserTwo Auser</p>
+                        <p className="story-username mt-1">User Is Me</p>
                     </center>                    
                 </div>
             </a>
@@ -58,7 +58,7 @@ export default function Stories(){
                     <center>
                         <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="username-story" 
                         className="img-fluid rounded-circle my-3 story-avatar" />
-                        <p className="story-username mt-1">UserTwo Auser</p>
+                        <p className="story-username mt-1">UserTwo</p>
                     </center>                    
                 </div>
             </a>
