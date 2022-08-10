@@ -8,17 +8,6 @@
   display: flex;
 }
 
-#story-bar {
-  margin-bottom: 20px;
-}
-
-.story-style {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  border: 1px solid black;
-}
-
 body {
   /* padding: 30px; -> For all could we move the padding to the actual container being targeted? */
   font-family: 'inter', sans-serif;
@@ -74,6 +63,44 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 } */
+
+
+/* Stories Page */
+
+#story-bar {
+  margin-bottom: 20px;
+}
+
+.story-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.story-username{
+  color: #031926;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.user-main-story-body{
+  width: 100px;
+  height: auto;
+  background-color: #087F8C;
+  border: 2px solid #087F8C;
+  border-radius: 15px;
+}
+
+.main-story-body{
+  width: 100px;
+  height: auto;
+  background: rgba(3, 25, 38, 0.5);
+  border: 2px solid rgba(3, 25, 38, 0.5);
+  border-radius: 15px;
+}
 
 
 /* Welcome Page */
@@ -267,7 +294,7 @@ input[type='date']:after {
 }
 
 
-/* Main Nav */
+/* Main Navbar */
 
 .main-navbar{
   background-color: #FFFFFF;
@@ -300,6 +327,44 @@ input[type='date']:after {
   font-size: 23px;
   margin-left: 8px;
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 335px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: -120px;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: #000000;
+  padding: 6px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  -moz-white-space: pre-wrap;
+  -o-white-space: pre-wrap;
+  white-space: pre-wrap;
+  /* hide text that can't wrap with an ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(221, 221, 221, 0.753);
+  color: #087F8C;
+}
+
 
 /* Left Navbar */
 

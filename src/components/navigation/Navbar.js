@@ -30,41 +30,64 @@ export default function Navbar(){
           </div> 
            
           <div className="d-flex align-items-center"> 
-            <NavLink className="text-reset me-3" to="/settings">
-              <i class="fas fa-cog main-nav-icon"></i>
-            </NavLink> 
 
-            <a className="text-reset me-3" href="#to">
-            <i class="far fa-comment main-nav-icon"></i>
-            </a> 
+            <div className="dropdown">
+                <a
+                  className="text-reset me-3"
+                  href="#notifications"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i className="fas fa-bell main-nav-icon"></i>
+                  <span className="badge rounded-pill badge-notification bg-info">15</span>
+                </a>
+                <ul
+                  className="dropdown-menu dropdown-content dropdown-menu-end p-2"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                <h3 className="main-settings-heading mx-2 my-2">Notifications</h3>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Some news sfsg</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Another news wfvwef erferer</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap wefwfwe</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap ffsfds wfsd</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap sfsdfsd</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap sdsasf</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#tu">Something else here and ... and wrap</a>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="dropdown">
-              <a
-                class="text-reset me-3"
-                href="#to"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <i class="fas fa-bell main-nav-icon"></i>
-                <span class="badge rounded-pill badge-notification bg-info">1</span>
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="#tu">Some news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#tu">Another news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#tu">Something else here</a>
-                </li>
-              </ul>
-            </div>
+              <a className="text-reset me-3" href="#to">
+              <i className="far fa-comment main-nav-icon"></i>
+              </a> 
+
+              <NavLink className="text-reset me-3" to="/settings">
+                <i className="fas fa-cog main-nav-icon"></i>
+              </NavLink>           
             
             <div className="main-nav-profile-pic">
               <NavLink
