@@ -37,8 +37,12 @@ body {
   font-size: 24px
 }
 
+/* Feed page */
+
 .post {
   padding: 20px;
+  width: 70% ;
+  height: auto ;
   margin-bottom: 20px;
   border-radius: 15px;
   border: 1px solid black;

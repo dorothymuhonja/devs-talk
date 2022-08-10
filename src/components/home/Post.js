@@ -1,6 +1,6 @@
 export default function Post() {
   return (
-    <div className="post">
+    <div className="post p-4">
       <div className="post-title d-flex w-25 justify-content-between">
         <div className="post-profile-image"></div>
         <div className="post-details">
@@ -16,6 +16,8 @@ export default function Post() {
           vitae ullamcorper ex pharetra et. Morbi ipsum leo, fringilla et orci
           id, molestie condimentum leo. Integer ultricies magna eget ex
           hendrerit viverra.
+
+          <img src=""></img>
         </p>
       </div>
       <div className="post-like-count d-flex">
