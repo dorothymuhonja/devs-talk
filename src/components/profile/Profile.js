@@ -15,7 +15,7 @@ export default function Profile() {
                     <li><span className='profile-name'>Abzed Mohammed</span>
                     <br /><span className='profile-username text-muted'>@Abzedizo</span></li>
                     <div className='followers'>
-                        <li>Followed by <b><a href="#to">2.3k people</a></b></li>
+                        <li>Follows <b><a href="#to">5.8k people</a></b></li>
                         <li>Followed by <b><a href="#to">2.3k people</a></b></li>
                         <button className='edit-profile-btn' type="button">Edit Profile</button>
                     </div>
